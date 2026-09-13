@@ -42,11 +42,15 @@ export default function Home() {
           <span className="text-sm font-semibold tracking-tight">AgroEdge</span>
         </div>
         
-          href="#"
-          className="rounded-full border border-white/15 px-4 py-2 text-xs font-medium text-white/80 transition hover:border-white/30 hover:text-white"
-        >
-          Sign in
-        </a>
+       
+  href="https://homepy-dfudpukc6mugvypgwkticj.streamlit.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
+>
+  Get started
+  <ArrowRight className="h-4 w-4" />
+</a>
       </nav>
 
       <section className="relative min-h-[92svh] w-full md:min-h-[720px]">
